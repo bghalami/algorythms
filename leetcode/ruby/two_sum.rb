@@ -6,6 +6,7 @@
 #   Given nums = [2, 7, 11, 15], target = 9,
 #   Because nums[0] + nums[1] = 2 + 7 = 9,
 #   return [0, 1].
+
 def two_sum(nums, target)
   hash = Hash.new()
   nums.each_with_index do |num, i|
